@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eef2ff;
+    color: #1e293b;
+}
+
+/* Header */
+.header {
+    background: #1e3a8a;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    background: #3b82f6;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alert-btn {
+    background: #facc15;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #1e293b;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+}
+
+.nav-links li a:hover {
+    background: #3b82f6;
+}
+
+/* Hero */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.ad-box {
+    background: #fde047;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Booking Section */
+.booking-section {
+    padding: 2rem;
+    background: white;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.primary-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.secondary-btn {
+    background: #475569;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.greeting {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #334155;
+}
+
+.booking-form {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.booking-form input,
+.booking-form select {
+    flex: 1;
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    border: 1px solid #cbd5f5;
+}
+
+/* Guests Counter */
+.guest-box {
+    margin-top: 2rem;
+}
+
+.counter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.counter-btn {
+    padding: 0.5rem 1rem;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Notes */
+.note-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #e0e7ff;
+    border-radius: 8px;
+}
+
+/* Video */
+.video-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+.footer {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+

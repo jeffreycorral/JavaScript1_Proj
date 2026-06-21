@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jepoy OFW Travel</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Jepoy OFW Travel</div>
+        <button id="menuButton" class="menu-toggle">MENU</button>
+
+        <nav>
+            <ul id="menu" class="nav-links" style="display:none;">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#booking">BOOKING</a></li>
+                <li><a href="#video">VIDEO</a></li> 
+                <li><a href="#contact">CONTACT</a></li>  
+            </ul>
+        </nav>
+
+        <button id="alertButton" class="alert-btn">Promo Alert</button>
+    </header>
+
+    <!--Hero Section-->
+    <section id="home" class="hero">
+        <div class="hero-text">
+        <h1>Book Your Dream Getaway</h1>
+        <p>Jepoy OFW Travel makes booking your next adventure simple, fast, and interactive</p>
+        <p class="ad-box">🔥 Summer Promo: Book now and get up to 40% OFF on selected destinations!</p>
+        <p class="ad-box">🔥 Summer Promo: Book now and get up to 40% OFF on selected destinations!</p>
+        <p class="ad-box">🔥 Summer Promo: Book now and get up to 40% OFF on selected destinations!</p>
+        <p class="ad-box">🔥 Summer Promo: Book now and get up to 40% OFF on selected destinations!</p>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="image/image1.jpg" width="550" height="550" alt="Beach Travel">
+        </div>
+    </section>
+
+    <!--Booking Section-->
+    <section id="booking" class="booking-section">
+        <h2>Start Your Booking</h2>
+
+    <!--Customer Name-->
+    <div class="form-row">
+    <label for="username">Enter Customer Name: </label>
+    <input type="text" id="username" placeholder="e.g. Jeffrey Corral">
+    <button id="greetButton" class="primary-btn">Confirm Name</button>
+    </div>
+
+    <p id="greetingMessage" class="greeting"></p>
+
+    <!--Booking Form-->
+    <form class="booking-form">
+        <div class="form-row">
+            <label for="destination">Destination: </label>
+            <select id="destination" name="destination">
+                <option value="">Select destination</option>
+                <option value="boracay">Boracay</option>
+                <option value="siargao">Siargao</option>
+                <option value="tagaytay">Tagaytay</option>
+                <option value="cebu">Cebu</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="roomtype">Room Type: </label>
+            <select id="roomtype" name="roomtype" >
+                <option value="">Select Room Type: </option>
+                <option value="standard">Standard</option>
+                <option value="deluxe">Deluxe</option>
+                <option value="suit">Suite</option>
+            </select>
+        </div>
+    </form>
+
+    <!--Counter For Guest-->
+    <div class="guest-box">
+        <h3>Select Number of Guest: </h3>
+        <p>Guests: <span id="counter">0</span></p>
+
+        <div class="counter-buttons">
+            <button id="decrementButton" class="counter-btn">-</button>
+            <button id="incrementButton" class="counter-btn">+</button>
+            <button id="resetButton" class="secondary-btn">Reset</button>
+        </div>
+    </div>
+
+    <!--Add Booking Note-->
+        <h4>Book Now to feel the luxury of life</h4>
+       <button id="addParagraphButton" class="primary-btn">Add Booking Note</button>
+        <div id="paragraphContainer" class="note-container"></div>
+    </section>
+
+    <!--Video Section-->
+    <section id="video" class="video-section">
+        <h2>Explore Your Destination</h2>
+        <p>Watch this travel highlight to get inspired for your next trip.</p>
+   
+
+    <!--Direct Youtube Link-->
+
+    <p>
+        Watch on Youtube:
+        <a href="https://www.youtube.com/watch?v=Scxs7L0vhZ4" target="blank">
+            https://www.youtube.com/watch?v=Scxs7L0vhZ4
+        </a>
+    </p>
+
+    <!--Embedded Youtube Video-->
+    <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/Scxs7L0vhZ4" 
+    Title="Travel Inspiration Video"
+    frameborder="0">
+    Allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    Allowfullscreen>
+
+         </iframe>
+        </div>
+     </section>
+
+     <!--Contact-->
+     <section id="contact" class="contact-section">
+        <h2>Need Assistance?</h2>
+        <p>Email us at <strong>support@jepoyofwtravel.com</strong></p>
+        <p>We're here to help you plan the perfect trip.</p>
+     </section>
+
+     <footer class="footer">
+        <p>© 2026 Jepoy OFW Travel Booking. All Rights Reserved.</p>
+     </footer>
+
+     <script src="js/script.js"></script>
+     
+</body>
+</html>
